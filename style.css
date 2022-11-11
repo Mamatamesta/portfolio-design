@@ -1,0 +1,545 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background: #0a3d62;
+	width: 100%;
+	height: 70px;
+}
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ui-developer {
+	padding: 15px 10px;
+    
+}
+.ui-developer h1 {
+	color: #fff;
+	font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-icon .fa {
+	color: white;
+	font-size: 30px;
+}
+@media only screen and (max-width: 480px){
+        .navbar{
+        	justify-content: space-between;
+        }
+        .menu-icon {
+        	padding-right: 10px;
+        }
+}
+/*----section1----*/
+.container-one {
+	width: 100%;
+	height: 560px;
+	background: #cfcfdb;
+}
+.container-flex {
+	text-align: center;
+	padding-top: 150px;
+}
+.hello {
+	padding-bottom: 10px;
+}
+.hello h1 {
+	color: #7a7171;
+	font-size: 25px;
+}
+.name {
+	padding-bottom: 15px;
+}
+.name h1 {
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.self-taught {
+	margin-bottom: 25px;
+}
+.self-taught p {
+	color: #7a7171;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+}
+.two-button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.hire-me{
+	padding: 0px 25px;
+}
+.hire-me button{
+	 font-size: 18px;
+	 background: white;
+	 padding: 9px 16px;
+	 border-radius: 9px;
+	 font-weight: bold;
+	 transition: 0.5s;
+}
+.hire-me button:hover{
+	background: #0a3d62;
+	color: white;
+}
+.download-cv button {
+	background: black;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 15px;
+	border-radius: 9px;
+	transition: 0.5s;
+}
+.download-cv button:hover{
+	background: #249056;
+	color: white;
+}
+.social-media  {
+        position: fixed;
+        top:275px;
+        right: 50px;     
+}
+.google {
+	padding-bottom: 20px;
+}
+.google i {
+	color: white;
+	background: #0a3d62;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 13px;
+	border-radius: 15%;
+	transition: 0.5s;
+}
+.google i:hover{
+	background: darkcyan;
+	color: black;
+}
+.twitter i {
+	color: white;
+	background:#0a3d62;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 13px;
+	border-radius: 15%;
+	transition: 0.5s;
+}
+.twitter i:hover{
+	background: darkcyan;
+	color: black;
+}
+.twitter{
+	padding-bottom: 20px;
+}
+.instagram i {
+	color: white;
+	background:#0a3d62;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 13px;
+	border-radius: 15%;
+	transition: 0.5s;
+}
+.instagram i:hover{
+	background: darkcyan;
+	color: black;
+}
+.instagram {
+	padding-bottom: 20px;
+}
+.whatsup i {
+	color: white;
+	background:#0a3d62;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 13px;
+	border-radius: 15%;
+	transition: 0.5s;
+}
+.whatsup i:hover{
+	background: darkcyan;
+	color: black;
+}
+@media only screen and (max-width:768px){
+	.container-one{
+		height: auto;
+	}
+	.container-flex{
+		padding-top: 35px;
+	}
+	.two-button{
+		padding-bottom: 25px;
+	}
+	.social-media{
+		top: 130px;
+		right: 32px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.hello h1{
+		font-size: 21px;
+	}
+	.name h1{
+		font-size: 23px;
+	}
+	.name{
+		padding-bottom: 7px;
+	}
+	.hire-me button{
+		font-size: 13px;
+		padding: 9px 20px;
+		border: 3px solid black;
+		border-radius: 5px;
+	}
+	.download-cv button{
+		font-size: 13px;
+		padding: 9px 20px;
+		border: 3px solid black;
+		border-radius: 5px;
+	}
+	.google i{
+		font-size: 13px;
+		padding: 6px 9px;
+	}
+	.twitter i{
+		font-size: 13px;
+		padding: 6px 9px;
+	}
+	.instagram i{
+		font-size: 13px;
+		padding: 6px 9px;
+	}
+	.whatsup i{
+		font-size: 13px;
+		padding: 6px 9px;
+	}
+	.social-media{
+		right: 7px;
+	}
+}
+/*----section2---*/
+.container-two {
+	background:#ecf9f5;
+	height: 650px;
+	width: 100%;
+	padding-top: 75px;
+}
+.information {
+      text-align: center;
+      background: #72d1d1;
+ 	width: 22%;
+ 	height: 420px;
+ 	margin: auto;
+ 	border-radius: 20px;
+ 	box-shadow: 0px 1px 8px 3px #252c19;
+}
+.profile {
+	width: 21%;
+	margin: auto;
+      padding-top: 15px;
+}
+.profile img {
+	width: 100%;
+	height:100px;
+	border-radius: 50%;
+   }
+ .about-me {
+ 	padding-top: 8px;
+ }
+ .about-me h1 {
+ 	font-size: 22px;
+ }
+ .Developer {
+ 	padding-top: 5px;
+ }
+.Developer h3 {
+	font-size: 14px;
+	color: #0e0d0d;
+}
+.all-details {
+	margin-top: 5px;
+}
+.all-details p {
+	font-size: 16px;
+	color: #241f1f;
+	font-style: italic;
+	line-height: 1.2em;
+}
+.btn-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 34px;
+}
+.hire-me1 {
+	padding-right: 10px;
+}
+.hire-me1 button{
+	background: /*#460ad7*/ #100922;
+	color: white;
+	font-size: 13px;
+	padding: 7px 22px;
+      transition: 0.5s;
+}
+.hire-me1 button:hover {
+	background:mediumpurple;
+	color: black;
+}
+.download-cv1 button{
+      background:/* #460ad7*/ #100922; 
+      color: white;
+      font-size: 13px;
+	padding: 7px 19px;
+	transition: 0.5s;
+}
+.download-cv1 button:hover{
+	background: mediumpurple;
+	color: black;
+}
+@media only screen and (max-width:768px){
+	.container-two{
+		height: auto;
+		padding-top: 40px;
+	}
+	.information{
+		height: auto;
+		width: 36%;
+	}
+	.profile {
+		width: 18%;
+	}
+	.profile img {
+		height: auto;
+	}
+	.btn-flex{
+		padding-top: 20px;
+		padding-bottom: 12px;
+	}
+
+}
+@media only screen and (max-width:480px){
+          .information{
+          	width: 85%;
+          	margin-bottom: 20px;
+          }
+
+}
+
+
+/*-----section-three---*/
+.container-three {
+	background:  mintcream;
+	width: 100%;
+	height: 650px;
+}
+.text {
+	text-align: center;
+	padding-top: 50px;
+}
+.projects {
+	padding-bottom: 15px;
+}
+.projects h1{
+	font-size: 30px;
+      font-family: sans-serif;
+}
+.UI-websites {
+	margin-bottom: 10px;
+}
+.UI-websites h4 {
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.some-details p{
+     font-size: 17px;
+     text-transform: capitalize;
+     line-height: 1.5em;
+     color: #100f0f;
+} 
+.four-box {
+	text-align: center;
+	padding-top: 50px;
+	 display: flex;
+	 justify-content: space-around;
+}
+.box-one {
+	background: black;
+	color: white;
+	margin: auto;
+	width: 23%;
+	height: 296px;
+	border-radius: 15px;
+}
+.number {
+	padding-top: 25px;
+}
+.number button {
+	border-radius: 50%;
+	padding: 9px 13px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.number button:hover {
+	background: coral;
+}
+.project {
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+.project h3 {
+	color: #ba89e7;
+	/*font-style: italic;*/
+	font-size: 25px;
+	text-transform: capitalize;
+	font-family: 'Kanit', sans-serif;
+}
+.small-para {
+	padding-bottom: 22px;
+}
+.small-para  p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: blanchedalmond;
+	line-height: 1.5em;
+	text-transform: capitalize;
+}
+
+.read-more button{
+     font-size: 12px;
+     padding: 6px 10px;
+     transition: 0.5s;
+     border: none;
+}
+.read-more button:hover {
+	background: darkblue;
+	color: white;
+}
+@media only screen and (max-width: 768px){
+	.text{
+		padding-top: 30px;
+	}
+	.container-three{
+		height: auto;
+	}
+	.four-box{
+		padding-bottom: 15px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 15px;
+	}
+	.box-one{
+		width: 75%;
+
+	}
+}
+@media only screen and (max-width: 480px){
+	.four-box{
+		display: block;
+		padding-top: 15px;
+
+	}
+	.some-details p {
+		font-size: 14px;
+		line-height: 1.8em;
+	}
+	.box-one{
+		margin-bottom: 25px;
+		width: 82%;
+	}
+	.number{
+		padding-top: 18px;
+	}
+	.project {
+		padding-top: 16px;
+		padding-bottom: 26px;
+	}
+	.small-para{
+		padding-bottom: 49px;
+	}
+	.small-para p{
+		font-size: 15px;
+	}
+}
+/*----footer---*/
+.bottom-page {
+	background: #031522;
+	width: 100%;
+	height: 320px;
+	text-align: center;
+}
+.goingto-internet {
+	padding-top: 50px;
+}
+.goingto-internet h1 {
+	color: white;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.social-media-one {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+}
+.facebook-one{
+	padding-right: 10px;
+}
+.facebook-one i{
+	background: white;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 9px 11px;
+	border-radius: 50%;
+}
+.twitter-one i{
+	background: white;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 9px 11px;
+	border-radius: 50%;
+}
+.twitter-one{
+	padding-right: 10px;
+}
+.instagram-one i{
+	background: white;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 9px 11px;
+	border-radius: 50%;
+}
+.instagram-one{
+	padding-right: 10px;
+}
+.whatsup-one i{
+	background: white;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 9px 11px;
+	border-radius: 50%;
+}
+.copyright{
+	padding-top: 25px;
+}
+.copyright p {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	color: #c39c9c;
+	text-transform: capitalize;
+}
+@media only screen and (max-width: 768px){
+	.bottom-page{
+		height: auto;
+	}
+	.bottom-page{
+		padding-bottom: 15px;
+	}
+}
