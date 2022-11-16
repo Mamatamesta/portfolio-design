@@ -38,7 +38,7 @@ header {
 .container-one {
 	width: 100%;
 	height: 560px;
-	background: #cfcfdb;
+	background: #d6d6e1;
 }
 .container-flex {
 	text-align: center;
@@ -234,7 +234,7 @@ header {
 }
 .information {
       text-align: center;
-      background: #72d1d1;
+      background: /*#becbcb*/ /*#dbdddd*/#f0f3f3;
  	width: 22%;
  	height: 420px;
  	margin: auto;
@@ -314,10 +314,10 @@ header {
 		width: 36%;
 	}
 	.profile {
-		width: 33%;
+		width: 45%;
 	}
 	.profile img {
-		height: auto;
+		height: 140px;
 	}
 	.btn-flex{
 		padding-top: 20px;
@@ -329,7 +329,15 @@ header {
           .information{
           	width: 85%;
           	margin-bottom: 20px;
+          	border-radius: 12px;
           }
+    .profile {
+		width: 38%;
+	}
+	.profile img {
+		height: 132px;
+	}
+
 
 }
 
