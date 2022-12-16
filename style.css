@@ -52,12 +52,6 @@ header {
         }
 
 }
-@media only screen and (max-width: 768px){
-	    .menu-item ul li a {
-	   	      display: none;
-	   }
-	   
-}
 
 /*----section1----*/
 .container-one {
@@ -532,7 +526,7 @@ header {
 		font-size: 15px;
 	}
 }
-@media only screen and (max-width: 1024px){
+/*@media only screen and (max-width: 1024px){
 	.box-one{
 		height: 330px;
 	}
@@ -545,7 +539,7 @@ header {
 	.box-four{
 		height: 330px;
 	}
-}
+}*/
 /*----footer---*/
 .bottom-page {
 	background: #031522;
